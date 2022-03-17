@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #296ca8;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 100px;
+    
+}
+
+h1{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.filter-container{
+    margin-top: 20px;
+    width: 80vw;
+    max-width: 800px;
+}
+
+.filter{
+    width: 100%;
+    padding: 12px;
+}
